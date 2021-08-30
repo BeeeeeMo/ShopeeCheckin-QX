@@ -8,7 +8,7 @@ function updateSPC_EC() {
       method: "GET",
       headers: headers,
   };
-
+  $notify("1");
   $task.fetch(refreshURL).then(response => {
     // response.statusCode, response.headers, response.body
     if (response.statusCode == 200) {
@@ -57,7 +57,7 @@ function updateCookie() {
     $prefs.valueForKey('CookieSP') + ';SPC_EC=' + $prefs.valueForKey('SPC_EC') +';',
   'X-CSRFToken': $prefs.valueForKey('CSRFTokenSP'),
   };
-
+  $notify("2");
   const accountInfoURL = {
       url: 'https://shopee.tw/api/v2/user/account_info?from_wallet=false&skip_address=1&need_cart=1',
       method: "GET",
