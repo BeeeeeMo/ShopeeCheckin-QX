@@ -1,9 +1,8 @@
 {
-  "name": "Sample",
+  "name": "Shopee Checkin 🦐",
+  "description": "蝦皮自動簽到",
   "task": [
-    {
-      "config": "0 0 * * * https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-task.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=Sample, enabled=true"
-    }
-  ],
-  "description": "This is a sample."
+      "0 7 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=自動簽到📝, enabled=false",
+      "55 6 * * * https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, tag=自動取得🍪, enabled=false"
+  ]
 }
