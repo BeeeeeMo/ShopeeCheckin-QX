@@ -2,7 +2,7 @@
   "name": "Shopee Checkin 🦐",
   "description": "蝦皮自動簽到",
   "task": [
-      "0 7 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=自動簽到📝, enabled=false",
-      "55 6 * * * https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, tag=自動取得🍪, enabled=false"
+      "0 7 * * * https://raw.githubusercontent.com/BeeeeeMo/ShopeeCheckin-QX/main/scripts/shopee_checkin.js, tag=自動簽到📝, enabled=false",
+      "55 6 * * * https://raw.githubusercontent.com/BeeeeeMo/ShopeeCheckin-QX/main/scripts/shopee_update_cookie.js, tag=自動取得🍪, enabled=false"
   ]
 }
