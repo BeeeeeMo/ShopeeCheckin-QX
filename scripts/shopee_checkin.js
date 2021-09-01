@@ -10,7 +10,7 @@ const shopeeUrl = {
 $task.fetch(shopeeUrl).then(response => {
     // response.statusCode, response.headers, response.body
     if (response.statusCode == 200) {
-        let obj = JSON.parse(data);
+        let obj = JSON.parse(response.body);
         if (obj["data"]["success"]) {
             var user = obj["data"]["username"];
             var coins = obj["data"]["increase_coins"];
